@@ -68,24 +68,27 @@ header h1 {
   display: flex;
   width: 100%;
   height: 15em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-image: url(./media/la-segunda-1-1609.jpg);
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.container-main-2 a {
-  color: white;
-  font-size: 2em;
-  font-weight: 200;
-  letter-spacing: 5px;
-  padding: 100px;
+.container-main-2 img {
+  height: 15em;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.container-main-2 img:hover {
+  -webkit-filter: none;
+          filter: none;
+  height: 16em;
 }
 
 .container-main-3 {
@@ -95,24 +98,27 @@ header h1 {
   display: flex;
   width: 100%;
   height: 15em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-image: url(./media/cas2.jpg);
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.container-main-3 a {
-  color: white;
-  font-size: 2em;
-  font-weight: 200;
-  letter-spacing: 5px;
-  padding: 100px;
+.container-main-3 img {
+  height: 15em;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.container-main-3 img:hover {
+  -webkit-filter: none;
+          filter: none;
+  height: 16em;
 }
 
 .container-main-4 {
@@ -122,24 +128,27 @@ header h1 {
   display: flex;
   width: 100%;
   height: 15em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-image: url(./media/cas3.jpg);
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.container-main-4 a {
-  color: #f7f0f0;
-  font-size: 2em;
-  font-weight: 200;
-  letter-spacing: 5px;
-  padding: 100px;
+.container-main-4 img {
+  height: 15em;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.container-main-4 img:hover {
+  -webkit-filter: none;
+          filter: none;
+  height: 16em;
 }
 
 .container-main-5 {
@@ -149,46 +158,26 @@ header h1 {
   display: flex;
   width: 100%;
   height: 15em;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-image: url(./media/VIVIENDA-UNIFAMILIAR-K616-01.jpg);
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: 3s all;
-  transition: 3s all;
 }
 
-.container-main-5 a {
-  color: white;
-  font-size: 2em;
-  font-weight: 200;
-  letter-spacing: 5px;
-  padding: 100px;
+.container-main-5 img {
+  height: 15em;
   width: 100%;
-}
-
-.container-main-2 {
+  -o-object-fit: cover;
+     object-fit: cover;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
-.container-main-3 {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
-.container-main-4 {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
-.container-main-5 {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+.container-main-5 img:hover {
+  -webkit-filter: none;
+          filter: none;
+  height: 16em;
 }
 /*# sourceMappingURL=estilos.css.map */
