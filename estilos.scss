@@ -30,13 +30,17 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:100% ;
+    width:100vmax ;
+    @media only screen and (max-width: 600px){
+        display: block;
+    }
+
     
 }
 
 .container-main{
         display: flex;
-        width: 100%;
+        width: 100vmax;
         height: 15em;
         background-color: black;
         color: white;
@@ -49,19 +53,25 @@ header h1 {
             text-align: justify;
             letter-spacing: 5px;
         }
-}
-
+@media only screen and (max-width: 600px) {
+            h3 {
+              width: 80%;
+            }
+      }
+  
+           
+          }
 .container-main-2 {
     margin-top: 10px;
     display: flex;
-    width: 100%;
+    width: 100vmax;
     height: 15em;
      background-size: cover;  
        align-items: center;
 
        img{
            height: 15em;
-           width: 100%;     
+           width: 100vmax;     
            object-fit: cover;
            filter: grayscale(100%);
            transition:0.5s all;
@@ -85,14 +95,14 @@ header h1 {
     .container-main-3 {
         margin-top: 10px;
         display: flex;
-        width: 100%;
+        width: 100vmax;
         height: 15em;
          background-size: cover;  
            align-items: center;
     
            img{
                height: 15em;
-               width: 100%;     
+               width: 100vmax;     
                object-fit: cover;
                filter: grayscale(100%);
                transition:0.5s all;
@@ -110,14 +120,14 @@ header h1 {
         .container-main-4 {
             margin-top: 10px;
             display: flex;
-            width: 100%;
+            width: 100vmax;
             height: 15em;
              background-size: cover;  
                align-items: center;
         
                img{
                    height: 15em;
-                   width: 100%;     
+                   width: 100vmax;     
                    object-fit: cover;
                    filter: grayscale(100%);
                    transition:0.5s all;
@@ -136,14 +146,14 @@ header h1 {
             .container-main-5 {
                 margin-top: 10px;
                 display: flex;
-                width: 100%;
+                width: 100vmax;
                 height: 15em;
                  background-size: cover;  
                    align-items: center;
             
                    img{
                        height: 15em;
-                       width: 100%;     
+                       width: 100vmax;     
                        object-fit: cover;
                        filter: grayscale(100%);
                        transition:0.5s all;

@@ -35,14 +35,20 @@ header h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  width: 100vmax;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-header {
+    display: block;
+  }
 }
 
 .container-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vmax;
   height: 15em;
   background-color: black;
   color: white;
@@ -61,12 +67,18 @@ header h1 {
   letter-spacing: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  .container-main h3 {
+    width: 80%;
+  }
+}
+
 .container-main-2 {
   margin-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vmax;
   height: 15em;
   background-size: cover;
   -webkit-box-align: center;
@@ -76,7 +88,7 @@ header h1 {
 
 .container-main-2 img {
   height: 15em;
-  width: 100%;
+  width: 100vmax;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-filter: grayscale(100%);
@@ -96,7 +108,7 @@ header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vmax;
   height: 15em;
   background-size: cover;
   -webkit-box-align: center;
@@ -106,7 +118,7 @@ header h1 {
 
 .container-main-3 img {
   height: 15em;
-  width: 100%;
+  width: 100vmax;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-filter: grayscale(100%);
@@ -126,7 +138,7 @@ header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vmax;
   height: 15em;
   background-size: cover;
   -webkit-box-align: center;
@@ -136,7 +148,7 @@ header h1 {
 
 .container-main-4 img {
   height: 15em;
-  width: 100%;
+  width: 100vmax;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-filter: grayscale(100%);
@@ -156,7 +168,7 @@ header h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vmax;
   height: 15em;
   background-size: cover;
   -webkit-box-align: center;
@@ -166,7 +178,7 @@ header h1 {
 
 .container-main-5 img {
   height: 15em;
-  width: 100%;
+  width: 100vmax;
   -o-object-fit: cover;
      object-fit: cover;
   -webkit-filter: grayscale(100%);
