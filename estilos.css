@@ -25,6 +25,13 @@ header h1 {
   margin-left: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+  header h1 {
+    display: block;
+    text-align: center;
+  }
+}
+
 .container-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,6 +48,7 @@ header h1 {
 @media only screen and (max-width: 600px) {
   .container-header {
     display: block;
+    text-align: center;
   }
 }
 
